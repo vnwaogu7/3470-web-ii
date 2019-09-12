@@ -55,6 +55,14 @@ body{
   main{
     text-align:center;
   }
+
+  h2{
+      color;;
+  }
+  .main p{
+   color: white;
+
+  }
   
   .list{
     margin:auto;
