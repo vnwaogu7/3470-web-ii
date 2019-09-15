@@ -10,7 +10,6 @@ body{
   
   header h1{
     font-size:70px;
-    padding:;
     font-family:"brush script MT" ;
     text-align:center;
     color:#2528ac;
@@ -64,7 +63,7 @@ body{
   }
   
   .list ul{
-    taext-align:center;
+    text-align:center;
     display:block;
     width:300px;
     height:180px;
