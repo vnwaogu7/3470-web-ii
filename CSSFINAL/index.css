@@ -1,0 +1,20 @@
+body{
+    font-family:'Exo', sans-serif;
+  }
+  
+    .sec1{
+      text-align:center;
+      background-image:url("mountain.png");
+      font-weight:100;
+    }
+  
+  .sec1 button{
+    color:white;
+    background:#ff6d6d;
+    border-radius:1px;
+    padding:7px;
+  }
+
+   .sec2{
+    
+  }
