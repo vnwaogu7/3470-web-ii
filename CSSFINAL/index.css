@@ -17,17 +17,33 @@ body{
   }
   .sec2{
     
+    
   }
+  
+  .sec3{
+    text-align:center;
+    margin:1px 45px;
+    
+  }
+  
+  .sec3 section{
+    padding:10px;
+  }
+  
+  .sec5{
+    text-align:center;
+    margin:1px 45px;
+    
+  }
+  
   
   h6{
     color:#ff6d6d;
   }
   
-  .sec3 {
-    text-align:center;
-  }
   
-  @media screen and (min-width: 600px){
+  
+  @media screen and (min-width: 500px){
     .sec2{
       display:flex;
       flex-direction:row-reverse;
@@ -36,5 +52,18 @@ body{
     .sec3 section {
       display:flex;
     }
-  }
     
+    .sec4{
+      display:flex;
+    }
+    
+    .sec5 .people {
+      display:flex;
+    }
+    
+    .sec5 .logo{
+      display:flex;
+      justify-content:space-around;
+      margin:5px 10px;
+    }
+    }
