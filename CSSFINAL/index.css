@@ -1,4 +1,5 @@
 body{
+    margin:0 auto;
     font-family:'Exo', sans-serif;
   }
   
@@ -14,7 +15,26 @@ body{
     border-radius:1px;
     padding:7px;
   }
-
-   .sec2{
+  .sec2{
     
   }
+  
+  h6{
+    color:#ff6d6d;
+  }
+  
+  .sec3 {
+    text-align:center;
+  }
+  
+  @media screen and (min-width: 600px){
+    .sec2{
+      display:flex;
+      flex-direction:row-reverse;
+    }
+    
+    .sec3 section {
+      display:flex;
+    }
+  }
+    
