@@ -8,6 +8,20 @@ body{
     max-height:100%;  
   }
   
+  button{
+    font-family:'Exo', sans-serif; 
+    border-radius:4px;
+    border-style:none;
+  }
+  
+  form input{
+    padding:12px 50px;
+    border-radius:5px;
+    color:white;
+    font-family:'Exo', sans-serif;
+    background: gray;opacity:0.5;
+  }
+  
   div section{
     margin-top:20px;
     margin-bottom:20px;  
@@ -15,13 +29,14 @@ body{
     .sec1{
       text-align:center;
       background-image:url("mountain.png");
-      font-weight:100;
+      font-family: 'Exo', sans-serif;
+      font-weight:300px; 
     }
   
   .sec1 button{
     color:white;
     background:#ff6d6d;
-    border-radius:1px;
+  
     padding:7px;
   }
   .sec2 p{
@@ -45,12 +60,16 @@ body{
   }
   
   .sec5{
-    background:#21232a;
+    color:white;
+    background:black;
     text-align:center;
     margin:1px 45px;
-    
+    padding:10px;
   }
   
+  .sec5 section{
+    padding:15px;
+  }
   
   h6{
     color:#ff6d6d;
@@ -58,6 +77,7 @@ body{
   
   .sec6{
     margin:auto;
+    margin-bottom:0px;
     text-align:center;
     width:800px;
   }
@@ -97,6 +117,12 @@ body{
   .sec8 button{
     background:#ff6d6d;
   }
+  
+  .sec8 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  
   @media screen and (min-width: 500px){
     .sec2{
       display:flex;
@@ -121,8 +147,6 @@ body{
       margin:5px 10px;
     }
     }
-    
-    
     
     
     
