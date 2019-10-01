@@ -1,6 +1,7 @@
 body{
     margin:0 auto;
     font-family:'Exo', sans-serif;
+    font-size:14px;
   }
   
   img{
@@ -30,7 +31,6 @@ body{
       text-align:center;
       background-image:url("mountain.png");
       font-family: 'Exo', sans-serif;
-      font-weight:300px; 
     }
   
   .sec1 button{
@@ -40,7 +40,8 @@ body{
     padding:7px;
   }
   .sec2 p{
-    font-weight:bolder; 
+    font-weight:300;
+    max-width:700px;
   }
   
   .sec3{
@@ -49,14 +50,19 @@ body{
     
   }
   
+  .sec3 article{
+    min-width:200px;
+    padding:10px;
+  }
+  
   .sec3 section{
     margin:auto;
     padding:10px;
   }
   
   .sec4 section{
-    margin:auto;
-    width:600px;
+    font-weight:300;
+    max-width:700px;
   }
   
   .sec5{
@@ -82,10 +88,16 @@ body{
     width:800px;
   }
   
+  .sec6 p{
+    font-size:14px;
+    font-weight:300;
+  }
+  
   .sec7{
     text-align:center;
     color:white;
     background:#323969;
+    margin-top:0px;
     
   }
   
@@ -102,12 +114,15 @@ body{
   
   .sec7 button{
     color:white;
-    background:#ff6d6d;
+    background-image:url("Group4.png");
+    padding:12px 60px;
   }
   
   .sec8{
     display:flex;
     justify-content:space-around;
+    font-size:12px;
+    padding:20px;
   }
   
   .sec8 form{
@@ -121,12 +136,19 @@ body{
   .sec8 img{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    text-align:center;
   }
   
-  @media screen and (min-width: 500px){
+  @media screen and (min-width:800px) {
+    
     .sec2{
       display:flex;
       flex-direction:row-reverse;
+    }
+    
+      
+    .sec2 section{
+      margin-left:20px;
     }
     
     .sec3 section {
@@ -135,6 +157,10 @@ body{
     
     .sec4{
       display:flex;
+    }
+    
+    .sec4 section{
+      margin-left:20px;
     }
     
     .sec5 .people {
@@ -147,6 +173,8 @@ body{
       margin:5px 10px;
     }
     }
+    
+    
     
     
     
