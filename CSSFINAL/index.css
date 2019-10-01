@@ -91,7 +91,8 @@ body{
     margin:auto;
     margin-bottom:0px;
     text-align:center;
-    width:800px;
+    max-width:800px;
+    min-width:400px;
   }
   
   .sec6 p{
@@ -105,7 +106,6 @@ body{
     background:#323969;
     margin-top:0px;
     padding:10px 1px;
-
     
   }
   
@@ -133,6 +133,9 @@ body{
     padding:20px;
   }
   
+  .sec8 section{
+    min-width:120px;
+  }
   .sec8 form{
     display:flex;  
   }
@@ -149,11 +152,18 @@ body{
   
   @media screen and (min-width:800px) {
     
+    img{
+      max-width:75%;
+      max-height:75%;
+    }
     .sec2{
       display:flex;
       flex-direction:row-reverse;
     }
     
+    .sec2 p{
+      min-width:700px;
+    }
       
     .sec2 section{
       margin-left:20px;
@@ -186,4 +196,5 @@ body{
       flex-wrap:wrap;
     }
     }
+    
     
