@@ -1,0 +1,68 @@
+body{
+    background:#e6e6e6;  
+  }
+  
+  main{
+    margin:auto;
+    width:1178px;
+  }
+  
+  main > header h1+p{
+    color:red;  
+  }
+  
+  main ,header + {
+    color:red;
+  }
+
+  
+  header p:nth-child(3){
+    color:blue;
+  }
+  
+  
+  article{
+    background:#eeeeee;  
+    display:inline-block;
+    -webkit-display:inline-block;
+    -moz-display:inline-block;
+    -ms-display:inline-block;
+    -o-display:inline-block;
+    width:350px;
+    margin:10px;
+    padding:5px;
+  }
+  
+  article header{
+    color:orange;
+  }
+  article header p{
+    color:blue;
+  }
+  
+  article header p{
+    color:blue;
+  }
+  
+  article section h1{
+    color:red;
+  }
+  
+  article section p{
+    color:green;
+  }
+  
+  article footer{
+    color:navy ;
+  }
+  
+  main > footer{
+    border-top:1px dashed black;
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  
+  
+  
+  
