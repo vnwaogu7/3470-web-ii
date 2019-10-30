@@ -1,0 +1,29 @@
+.ex1 img{
+    padding:10px;
+    width:200px;
+    height:210px;
+    animation:heart 1s ease-in-out 0s infinite none;
+  }
+  
+  
+  @keyframes heart{
+    0%{
+     width:200px;
+     height:210px;
+    }
+    
+    25%{
+     width:220px;
+     height:230px;    
+    }
+    
+    50%{
+     width:150px;
+     height:160px;
+    }
+    
+    65%{
+     width:250px;
+     height:260px;    
+    }
+  }
