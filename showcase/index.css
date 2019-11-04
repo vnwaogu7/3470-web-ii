@@ -1,4 +1,166 @@
-.ex1 img{
+header{  
+  color:blue;  
+}
+
+/*animation.timing-function:*/
+.prop .time .one{
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:one 3s linear 0s infinite normal none;
+}
+
+
+@keyframes one{
+  from{
+    left:0px;
+  }
+  to{
+    left:100px
+  }
+}
+
+.prop .time .two{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:two 3s ease 0s infinite normal none;
+}
+
+@keyframes two{
+  from{
+    left:0px;
+  }
+  to{
+    left:100px
+  }
+}
+
+.prop .time .three{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:three 3s ease-in 0s infinite normal none;
+}
+
+@keyframes three{
+  from{
+    left:0px;
+  }
+  to{
+    left:100px
+  }
+}
+
+.prop .time .four{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 3s ease-out 0s infinite normal none;
+}
+
+@keyframes four{
+  from{
+    left:0px;
+  }
+  to{
+    left:100px
+  }
+}
+
+.prop .time .five{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:five 3s ease-in 0s infinite normal none;
+}
+
+@keyframes five{
+  from{
+    left:0px;
+  }
+  to{
+    left:100px
+  }
+}
+
+/*animation.delay*/
+
+.prop .delay .one{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 0s infinite normal none;
+}
+
+.prop .delay .two{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s infinite normal none;
+}
+
+/*animation.iteration-count*/
+.prop .count .one{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s 3 normal none;
+}
+
+.prop .count .two{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s infinite normal none;
+}
+
+/*animation.direction*/
+
+.prop .direction .one{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s infinite normal none;
+}
+
+.prop .direction .two{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s infinite reverse none;
+}
+
+.prop .direction .three{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s infinite alternate none;
+}
+
+.prop .direction .four{
+  display:block;
+  width:75px;
+  height:75px;
+  position:relative;
+  animation:four 4s ease-in 2s infinite alternate-reverse none;
+}
+
+/*animation.fill-mode*/
+
+
+.prop .ex1 img{
     padding:10px;
     width:200px;
     height:210px;
@@ -27,3 +189,28 @@
      height:260px;    
     }
   }
+
+.prop .ex2{
+  background:purple;
+  width:200px;
+}
+
+.prop .ex2 img{ 
+  display:flex;
+  align-items:flex-end;
+  position:relative;
+  left:0px; 
+  width:180px;
+  height:180px;
+  animation: sup 2s ease-in-out 0s infinite normal none;
+}
+
+@keyframes sup {
+  from {
+    left:0px;
+  }
+  
+  to{
+  left:100px;
+  }
+}
