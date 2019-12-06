@@ -37,7 +37,7 @@ nav{
   color:white;
 }
 
-.main{
+#main{
 background: rgb(19,0,36);
 background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
 }
@@ -49,8 +49,5 @@ background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rg
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
