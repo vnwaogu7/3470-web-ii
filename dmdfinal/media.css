@@ -1,5 +1,9 @@
+*{
+  box-sizing:border-box;
+}
+
 body{
-  margin:auto;  
+  margin:auto 0;  
 }
 
 header{
@@ -11,6 +15,7 @@ header{
 .topname{
   color:white;
   text-align:right;
+  margin-right:15px;
 }
 
 nav{
@@ -42,12 +47,33 @@ background: rgb(19,0,36);
 background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
 }
 
+.container1{
+  margin-bottom:30px;  
+}
+
 .photo{
-  margin-top:10px;
-  max-width:90%;
+  margin:auto;
+  max-width:80%;
   text-align:center;
+  
+}
+
+.photo:hover .img {
+  opacity: 0.3;
 }
 
 .centered {
 
 }
+
+.container2{
+  text-align:center;
+  margin-top:40px;
+}
+
+.row img{
+  padding:20px;
+  border-radius:50%;
+}
+
+

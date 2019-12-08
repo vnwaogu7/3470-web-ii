@@ -1,3 +1,7 @@
+*{
+  box-sizing:border-box;
+}
+
 body{
   margin:auto;  
 }
@@ -11,18 +15,20 @@ header{
 .topname{
   color:white;
   text-align:right;
+  margin-right:15px;
 }
 
-nav{
+nav {
   border-top:2px solid white;
-    border-bottom:2px solid white; 
+  border-bottom:2px solid white;
 }
 
-.navbar .nav-link{
-  padding:0;
-  display:flex;
-  justify-content:space-between;
-  flex-wrap: nowrap;
+
+
+.navbar-nav > li{
+  margin:auto;
+  padding-left:30px;
+  padding-right:30px;
 }
 
 .navbar-custom {
@@ -39,5 +45,10 @@ nav{
 
 .main{
 background: rgb(19,0,36);
-background: linear-gradient(90deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
+background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
 }
+
+.container{
+  margin-bottom:40px;
+}
+
