@@ -45,6 +45,7 @@ nav{
 
 .carousel-inner > .item > img{
 margin: 0 auto;
+max-width:100%;
 }
 
 .carousel-caption{
@@ -121,5 +122,11 @@ margin: 0 auto;
 }
 
 
-
-
+  footer{
+    text-align:left;
+    padding:1px;
+    font-size:15px;
+    color:white;
+    background:black;
+    border-top:2px solid white;
+  }

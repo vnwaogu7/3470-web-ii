@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  body{
+    margin:auto ;  
+  }
+  
+  header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,9,121,1) 35%, rgba(129,0,138,1) 80%);
+    margin-bottom:0px;
+  }
+  
+  .topname{
+    color:white;
+    text-align:right;
+    margin-right:15px;
+  }
+  
+  nav{
+    font-size:20px;
+  }
+  
+  .navbar-custom{
+    background-color:	#000000;
+  }
+  .main{
+  background:black;
+  padding-top:40px;
+  margin:auto;
+  color:white;
+  }
+  
+    footer{
+      text-align:left;
+      padding:1px;
+      font-size:15px;
+      color:white;
+      background:black;
+      border-top:2px solid white;
+    }
+  
+  

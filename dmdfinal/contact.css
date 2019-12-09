@@ -64,4 +64,11 @@ background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rg
   color:white;
 }
 
-  
+  footer{
+    text-align:left;
+    padding:1px;
+    font-size:15px;
+    color:white;
+    background:black;
+    border-top:2px solid white;
+  }

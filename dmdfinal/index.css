@@ -64,3 +64,12 @@ h3{
   text-decoration: underline  double;
   text-decoration-color:#800080;
 }
+
+  footer{
+    text-align:left;
+    padding:1px;
+    font-size:15px;
+    color:white;
+    background:black;
+    border-top:2px solid white;
+  }
