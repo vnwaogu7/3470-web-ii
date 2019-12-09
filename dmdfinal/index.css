@@ -3,13 +3,17 @@
 }
 
 body{
-  margin:auto;  
+  margin:auto 0; 
+}
+
+.top{
+  
 }
 
 header{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,9,121,1) 35%, rgba(129,0,138,1) 80%);
-  margin-bottom:0px;
+  
 }
 
 .topname{
@@ -18,7 +22,7 @@ header{
   margin-right:15px;
 }
 
-nav {
+nav{
   border-top:2px solid white;
   border-bottom:2px solid white;
 }
@@ -44,11 +48,47 @@ nav {
 }
 
 .main{
-background: rgb(19,0,36);
-background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
+background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.main h1 {
+  padding-top:20px;
+  color:white;  
 }
 
 .container{
   margin-bottom:40px;
 }
 
+.container .jumbotron{
+  
+}
+
+.container p {
+  color:white;
+  display:flex;
+  align-items:center;
+  padding:10px;
+}
+
+.container1{
+  margin:auto;
+  max-width:90%;  
+}
+
+.container1 .jumbotron {
+  padding:10px;
+  border:1px outset white;
+  color:white;
+}
+
+h3{
+  text-decoration: underline  double;
+  text-decoration-color:#800080;
+}
+
+.btn-primary .btn custom {
+  background-color:black;
+  
+}

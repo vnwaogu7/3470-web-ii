@@ -63,7 +63,8 @@ body{
   }
   
   .main ul{
-    font-size:22px;
+    font-size:16px;
+    margin:auto;
     color:#800080;
   }
   
@@ -71,6 +72,8 @@ body{
   .main ul li{
     color:white;
   }
+  
+  
   
   
   
