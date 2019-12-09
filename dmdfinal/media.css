@@ -3,7 +3,7 @@
 }
 
 body{
-  margin:auto 0;  
+  margin:auto ;  
 }
 
 header{
@@ -18,37 +18,29 @@ header{
   margin-right:15px;
 }
 
-nav{
-  border-top:2px solid white;
-    border-bottom:2px solid white; 
-}
-
-.navbar .nav-link{
-  padding:0;
-  display:flex;
-  justify-content:space-between;
-  flex-wrap: nowrap;
-}
-
-.navbar-custom {
-    background-color: black;
-}
-
-.navbar-custom .dropdown-menu-text{
-  color:white;
-}
-
-.navbar-custom .navbar-text{
-  color:white;
-}
-
 #main{
 background: rgb(19,0,36);
 background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
 }
 
+#main h1{
+  color:white;
+}
+nav{
+  font-size:20px;
+  max-height:60px;  
+}
+
+.navbar-custom{
+  background-color:	#000000;
+}
+
 .container1{
   margin-bottom:30px;  
+}
+
+.carousel-inner > .item > img{
+margin: 0 auto;
 }
 
 .carousel-caption{
@@ -59,6 +51,8 @@ background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rg
 .carousel-caption p{
   font-size:12px;
 }
+
+
 
 
 .photo{
@@ -121,6 +115,7 @@ background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rg
   padding:40px;
   border-radius:50%;
 }
+
 
 
 

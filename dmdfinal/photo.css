@@ -1,5 +1,9 @@
-body{
-    margin:auto 0;  
+*{
+    box-sizing:border-box;
+  }
+  
+  body{
+    margin:auto ;  
   }
   
   header{
@@ -11,31 +15,18 @@ body{
   .topname{
     color:white;
     text-align:right;
+    margin-right:15px;
   }
   
   nav{
-    border-top:2px solid white;
-      border-bottom:2px solid white; 
+    font-size:20px;
+    max-height:60px;  
   }
   
-  .navbar .nav-link{
-    padding:0;
-    display:flex;
-    justify-content:space-between;
-    flex-wrap: nowrap;
+  .navbar-custom{
+    background-color:	#000000;
   }
   
-  .navbar-custom {
-      background-color: black;
-  }
-  
-  .navbar-custom .dropdown-menu-text{
-    color:white;
-  }
-  
-  .navbar-custom .navbar-text{
-    color:white;
-  }
   
   #main{
   background: rgb(19,0,36);
@@ -45,7 +36,7 @@ body{
   }
   
   img{
-    padding:15px;
     border:3px solid white;
     border-radius:10px;
+    margin:auto;
   }
