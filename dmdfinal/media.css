@@ -39,14 +39,10 @@ nav{
 
 .container1{
   margin:auto;
-  max-width:90%;
   margin-bottom:30px;  
 }
 
-.carousel-inner > .item > img{
-margin: 0 auto;
-max-width:100%;
-}
+
 
 .carousel-caption{
   background: rgba(0, 0, 0, 0.3);
