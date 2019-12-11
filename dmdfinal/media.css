@@ -71,12 +71,17 @@ h2{
 
 
 .carousel-inner > .item > img{
-margin:auto;
+margin: 0 auto;
+  width:auto;
+  height:100%;
 }
 
 .carousel-caption{
-  background: rgba(0, 0, 0, 0.3);
-  border-radius:25px;
+  
+  position: relative;
+    left: 50%;
+    top: 100%;
+  
 }
 
 .carousel-caption p{
