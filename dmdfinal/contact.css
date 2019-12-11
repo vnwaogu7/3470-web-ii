@@ -3,8 +3,7 @@
 }
 
 body{
-  margin:0 auto;
-  min-height:100vh;
+  margin:auto ;  
 }
 
 header{
@@ -14,27 +13,45 @@ header{
 }
 
 .topname{
+  font-family: 'Lato', sans-serif;
   color:white;
   text-align:right;
   margin-right:15px;
 }
 
+.topname h1{
+font-family: 'Lato', sans-serif;
+  font-weight:100;
+  font-style:italic;
+  font-size:40px;
+}
+
 nav{
-  font-size:20px; 
+  font-family: 'Lato', sans-serif;
+  font-style:italic;
+  font-size:18px;
 }
 
 .navbar-custom{
   background-color:	#000000;
 }
 
+h1{
+  text-shadow: 3px 3px #000000;
+  font-family: 'Montserrat', sans-serif
+}
+
+
 .main{
 background: rgb(19,0,36);
 background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
- 
+font-family: 'Montserrat', sans-serif; 
 }
 
-.main h1{
-  color:white;  
+.main h1 {
+  padding-top:20px;
+  color:white;
+  margin-bottom:20px;
 }
 
 .row{
@@ -72,3 +89,5 @@ background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rg
     background:black;
     border-top:2px solid white;
   }
+
+

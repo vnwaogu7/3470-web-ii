@@ -2,9 +2,8 @@
   box-sizing:border-box;
 }
 
-body {
-  margin:auto;
-  max-width:100%;
+body{
+  margin:auto ;  
 }
 
 header{
@@ -14,27 +13,55 @@ header{
 }
 
 .topname{
+  font-family: 'Lato', sans-serif;
   color:white;
   text-align:right;
   margin-right:15px;
 }
 
-.main{
-background: rgb(19,0,36);
-background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
-margin:auto;
+.topname h1{
+font-family: 'Lato', sans-serif;
+  font-weight:100;
+  font-style:italic;
+  font-size:40px;
 }
 
-.main h1{
-  color:white;
-}
 nav{
-  font-size:20px;
-  
+  font-family: 'Lato', sans-serif;
+  font-style:italic;
+  font-weight:bold;
+  font-size:18px;
 }
 
 .navbar-custom{
   background-color:	#000000;
+}
+
+h1{
+  text-shadow: 2px 2px #800080;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+.main{
+background: rgb(19,0,36);
+background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
+margin:auto;
+font-family: 'Montserrat', sans-serif;
+}
+
+.main h1 {
+  padding-top:20px;
+  color:white;
+  margin-bottom:20px;
+}
+
+h2{
+  text-shadow: 2px 2px #800080;
+  font-family: 'Rock Salt', cursive;
+    padding-top:20px;
+  color:white;
+  margin-bottom:20px;
 }
 
 .container1{
@@ -114,7 +141,6 @@ nav{
 
 .row img{
   padding:40px;
-  border-radius:50%;
 }
 
 

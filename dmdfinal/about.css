@@ -1,46 +1,75 @@
-*{
-    box-sizing:border-box;
-  }
-  
-  body{
-    margin:auto ;  
-  }
-  
-  header{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,9,121,1) 35%, rgba(129,0,138,1) 80%);
-    margin-bottom:0px;
-  }
-  
-  .topname{
-    color:white;
-    text-align:right;
-    margin-right:15px;
-  }
-  
-  nav{
-    font-size:20px;
-  }
-  
-  .navbar-custom{
-    background-color:	#000000;
-  }
-  .main{
-  background:black;
-  padding-top:40px;
-  margin:auto;
-  color:white;
-  }
-  
-  .row{
-    margin-bottom:40px;
-  }
-  
-    footer{
-      text-align:left;
-      padding:1px;
-      font-size:15px;
-      color:white;
-      background:black;
-      border-top:2px solid white;
-    }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(79, 9, 121, 1) 35%,
+    rgba(129, 0, 138, 1) 80%
+  );
+  margin-bottom: 0px;
+}
+
+.topname {
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.topname h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 40px;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-custom {
+  background-color: #000000;
+}
+
+h1 {
+  text-shadow: 2px 2px #800080;
+  font-family: "Permanent Marker", cursive;
+}
+
+.main {
+  background: black;
+  padding-top: 40px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container .jumbotron {
+  text-align: center;
+  align-items:center;
+}
+
+
+.container-fluid .row {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: left;
+  padding: 1px;
+  font-size: 15px;
+  color: white;
+  background: black;
+  border-top: 2px solid white;
+}
