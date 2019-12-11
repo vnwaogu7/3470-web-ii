@@ -70,6 +70,9 @@ h2{
 }
 
 
+.carousel-inner > .item > img{
+margin:auto;
+}
 
 .carousel-caption{
   background: rgba(0, 0, 0, 0.3);
@@ -141,6 +144,7 @@ h2{
 
 .row img{
   padding:40px;
+  border-radius:50%;
 }
 
 
