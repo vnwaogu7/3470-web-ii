@@ -1,8 +1,32 @@
+body{
+  background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+color:white;
+}
+
 header{  
-  color:blue;  
+  color: #166d3b;
+  
+}
+
+section{
+  padding-left:10px;
+  background: rgb(42,41,42);
+background: linear-gradient(90deg, rgba(42,41,42,1) 0%, rgba(208,208,209,0) 100%);
+}
+
+h3{
+  color:#90ee90;
+}
+
+
+.prop{
+background:rgba(111,102,102,0.2);
+  border-radius:10px;
 }
 
 /*animation.timing-function:*/
+
 .prop .time .one{
   width:75px;
   height:75px;
@@ -107,12 +131,12 @@ header{
 }
 
 /*animation.iteration-count*/
-.prop .count .one{
+.prop .count .one:hover{
   display:block;
   width:75px;
   height:75px;
   position:relative;
-  animation:four 4s ease-in 2s 3 normal none;
+  animation:four 4s linear 0s 3 normal none;
 }
 
 .prop .count .two{
@@ -159,49 +183,24 @@ header{
 
 /*animation.fill-mode*/
 
-
-.prop .ex1 img{
-    padding:10px;
-    width:200px;
-    height:200px;
-    animation:heart 1s ease-in-out 0s infinite none;
-  }
-  
-  
-  @keyframes heart{
-    0%{
-     width:200px;
-     height:210px;
-    }
-    
-    25%{
-     width:220px;
-     height:230px;    
-    }
-    
-    50%{
-     width:150px;
-     height:160px;
-    }
-    
-    65%{
-     width:250px;
-     height:260px;    
-    }
-  }
-
-.prop .ex2{
-  background:purple;
-  width:200px;
+.example{
+  display:flex;
 }
 
-.prop .ex2 img{ 
-  display:flex;
-  align-items:flex-end;
+.ex2{
+  background-image:url("https://clip.cookdiary.net/sites/default/files/wallpaper/road-clipart/166472/road-clipart-side-view-166472-2154068.jpg");
+ background-size:contain;
+  height:200px;
+  width:300px;
+}
+
+.ex2 img{
+  display:inline-block;
   position:relative;
-  left:0px; 
-  width:180px;
-  height:180px;
+  left:0px;
+  top:50%;
+  width:90px;
+  height:90px;
   animation: sup 2s ease-in-out 0s infinite normal none;
 }
 
@@ -211,6 +210,43 @@ header{
   }
   
   to{
-  left:100px;
+  left:150px;
   }
 }
+.ex3{
+  width:300px;
+  height:300px;
+}
+.ex3 img{
+    padding:10px;
+    width:200px;
+    height:210px;
+    animation:heart 1s ease-in-out 0s infinite none;
+  }
+  
+  
+  @keyframes heart{
+    0%{
+     width:180px;
+     height:190px;
+    }
+    
+    25%{
+     width:200px;
+     height:210px;    
+    }
+    
+    50%{
+     width:130px;
+     height:140px;
+    }
+    
+    65%{
+     width:230px;
+     height:240px;    
+    }
+    100%{
+      width:180px;
+     height:190px;
+    }
+  }
