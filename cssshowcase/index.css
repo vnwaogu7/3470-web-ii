@@ -131,7 +131,7 @@ background:rgba(111,102,102,0.2);
 }
 
 /*animation.iteration-count*/
-.prop .count .one:hover{
+.prop:hover .count .one{
   display:block;
   width:75px;
   height:75px;
