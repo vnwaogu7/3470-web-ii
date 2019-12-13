@@ -1,0 +1,175 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="index.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Advance CSS Animations!</h1>
+  </header>
+  <p>CSS3 paves the way to endless creations in html and CSS. The latest improvements to the language have allowed for more animations to be created in CSS. This can serve a useful tool for developers of all skill-levels, as it grants them the opportunity
+    to create animations that were once only accessible with the use of Java.
+  </p>
+  <main>
+    <div class="break">
+      <h4><span style="color:gray;">The Break Down</span></h4>
+      <p>In order to understand CSS animation, you must first understand its components. Advance CSS animations are created from @keyframes and Animation properties.
+      </p>
+      <h6>@keyframes + properties</h6>
+      <div class="key">
+        <h3><span style="color:#166d3b;">@Keyframes:</span></h3>
+        <p>A @keyframe is a CSS rule that specifies the animation of the code. It sets up the sequence for each animation.
+        </p>
+        <img src="keyframe.png" alt="keysyntax">
+        <p><span style="font-weight:bold;color:#008080;">[name]</span></p>
+        <p><span style="font-weight:bold;color:#008080;">from{}</span>this tag indicates the intial attributes of the element</p>
+        <p><span style="font-weight:bold;color:#008080;">to{}</span>this tag indicates attributes of the element once it reaches its infal frame</p>
+      </div>
+      <div class="animation">
+        <h3><span style="color:#166d3b;">Animation Properties</span></h3>
+        <p>Specific attributes given an element that helps define how each one is.</p>
+        <img src="animationp.png" alt="animsyntax">
+      </div>
+      <p><span style="color:red">note:</span> there aren’t any commas between each property, similar to borders -animation.name -indicates the name of the animation that will be applied to the element</p>
+    </div>
+    <div class="prop">
+      <div>
+        <h3><span style="color:green;text-decoration: underline;">animation.duration</span></h3>
+        <h4>-indicates how long the animation should last</h4>
+      </div>
+      <div class="time">
+        <h3><span style="color:green;text-decoration: underline;">animation.timing-function:</span> </h3>
+        <h4>specifies the type of timing the animation will use to transition</h4>
+        <section>
+          <h3>linear</h3>
+          <p>The animation has the same speed from start to end</p>
+          <div class="yer">
+            <img class="one" src="soccer.png" alt="ball">
+          </div>
+        </section>
+        <section>
+          <h3>ease</h3>
+          <p>The animation has a slow start, then fast, before it ends slowly. This is a default.</p>
+          <img class="two" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>ease-in</h3>
+          <p>The animation has a slow start</p>
+          <img class="three" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>ease-out</h3>
+          <p>The animation has a slow end</p>
+          <img class="four" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>ease-in-out</h3>
+          <p>The animation has both a slow start and a slow end</p>
+          <img class="five" src="soccer.png" alt="ball">
+        </section>
+      </div>
+      <div class="delay">
+        <h3><span style="color:green;text-decoration: underline;">animation.delay:</span> </h3>
+        <h4>How long it takes for an animation to start</h4>
+        <section>
+          <h3>No Delay</h3>
+          <img class="one" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3> 2 Second Delay</h3>
+          <img class="two" src="soccer.png" alt="ball">
+        </section>
+      </div>
+      <div class="count">
+        <h3><span style="color:green;text-decoration: underline;">animation.iteration-count:</span></h3>
+        <h4>-Represents the number of times the animation loops</h4>
+        <section>
+          <h3>Number (2,3,5, 6 etc.)</h3>
+          <p>The number defines how many times the animation loops. In this example, the animation loops 3 times.Hover to view animation</p>
+          <img class="one" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>Infinite</h3>
+          <p>The animations loops an infinite amount of times</p>
+          <img class="two" src="soccer.png" alt="ball">
+        </section>
+      </div>
+      <div class="direction">
+        <h3><span style="color:green;text-decoration: underline;">animation.direction</span></h3>
+        <p>The animation. direction indicates which direction the animation will be moving</p>
+        <section>
+          <h3>normal</h3>
+          <p>The animation is played as normal in the forward direction. This is also the default value of the animation</p>
+          <img class="one" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>reverse</h3>
+          <p> The animation is played in reverse direction.</p>
+          <img class="two" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>alternate</h3>
+          <p>The animation is played forwards first, then backwards.</p>
+          <img class="three" src="soccer.png" alt="ball">
+        </section>
+        <section>
+          <h3>alternate-Reverse</h3>
+          <p>The animations loops an infinite amount of times</p>
+          <img class="four" src="soccer.png" alt="ball">
+        </section>
+      </div>
+      <div class="fill">
+        <h3><span style="color:green;text-decoration: underline;">animation.fill-mode</span></h3>
+        <h4>animation.fill-mode specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)</h4>
+      </div>
+      <div>
+        <h6>animation.play-state</h6>
+      </div>
+    </div>
+    <div class="example">
+
+      <div class="ex2">
+        <img src="motorcycle.png" alt="bike">
+      </div>
+
+      <div class="ex3">
+        <img src="heart.png" alt="heart">
+      </div>
+    </div>
+  </main>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
