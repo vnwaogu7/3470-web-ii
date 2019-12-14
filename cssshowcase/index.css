@@ -131,12 +131,19 @@ background:rgba(111,102,102,0.2);
 }
 
 /*animation.iteration-count*/
-.prop:hover .count .one{
+.prop .count .one:hover{
   display:block;
   width:75px;
   height:75px;
   position:relative;
   animation:four 4s linear 0s 3 normal none;
+}
+
+.prop .count .one{
+  display:block;
+  width:75px;
+  height:75px;
+  
 }
 
 .prop .count .two{
