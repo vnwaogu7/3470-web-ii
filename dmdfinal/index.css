@@ -4,12 +4,14 @@
 
 body{
   margin:auto ;  
+  background-color: #000000;
 }
 
 header{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,9,121,1) 35%, rgba(129,0,138,1) 80%);
   margin-bottom:0px;
+  margin-top:0px;
 }
 
 .topname{
@@ -97,7 +99,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 h3{
-   font-family: 'Rock Salt', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: underline  double;
   text-decoration-color:#800080;
 }

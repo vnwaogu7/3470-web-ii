@@ -3,8 +3,9 @@
 }
 
 body{
-  margin:auto;
+  margin:auto ;
   height:100vh;
+  background-color: #000000;
 }
 
 header{
@@ -46,7 +47,8 @@ h1{
 .main{
 background: rgb(19,0,36);
 background: linear-gradient(180deg, rgba(19,0,36,1) 0%, rgba(55,31,70,1) 41%, rgba(97,78,98,1) 80%);
-font-family: 'Montserrat', sans-serif; 
+font-family: 'Montserrat', sans-serif;
+min-height:80vh; 
 }
 
 .main h1 {

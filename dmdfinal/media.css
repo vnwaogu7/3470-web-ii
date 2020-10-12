@@ -4,6 +4,7 @@
 
 body{
   margin:auto ;  
+  background-color:black;
 }
 
 header{
@@ -39,7 +40,7 @@ nav{
 
 h1{
   text-shadow: 2px 2px #800080;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -58,7 +59,7 @@ font-family: 'Montserrat', sans-serif;
 
 h2{
   text-shadow: 2px 2px #800080;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Montserrat', sans-serif;
     padding-top:20px;
   color:white;
   margin-bottom:20px;
@@ -67,13 +68,6 @@ h2{
 .container1{
   margin:auto;
   margin-bottom:30px;  
-}
-
-
-.carousel-inner > .item > img{
-margin: 0 auto;
-  width:auto;
-  height:100%;
 }
 
 
@@ -140,9 +134,16 @@ margin: 0 auto;
   margin-top:40px;
 }
 
+.row{
+padding-top:40px;
+padding-bottom:40px;  
+}
+
 .row img{
-  padding:40px;
+  padding-left:30px;
+  padding-right:30px;
   border-radius:50%;
+  -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
 }
 
 

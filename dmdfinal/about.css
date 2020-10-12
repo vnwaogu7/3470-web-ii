@@ -4,6 +4,7 @@
 
 body {
   margin: auto;
+  background: #000000;
 }
 
 header {
@@ -61,12 +62,17 @@ h1 {
 
 
 .container-fluid .row {
-  margin:auto;
   margin-top: 30px;
-  margin-bottom: 40px;
+
+}
+
+.container-fluid .row img {
+  -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+
 }
 
 footer {
+  margin-top:0px;
   text-align: left;
   padding: 1px;
   font-size: 15px;
